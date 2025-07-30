@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/* Global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+/* Flexbox for header content */
+.header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #400040;
+    color: white;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a0d6a4;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #d2d2d2; /* Highlight for the dot in the logo */
+}
+
+/* Navigation menu */
+.navbar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: rgb(128, 255, 0); /* Hover effect color */
+}
+
+/* Icons for user, cart */
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons .fas {
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.icons a span {
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+/* Profile dropdown section */
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.profile .flex-btn {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.profile .option-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.profile .option-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background-color: #400040;
+    padding: 3rem 2rem;
+    color: #fff;
+}
+
+footer .box-container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .box {
+    width: 22%;
+    background-color: #fff;
+}
+
+footer .box h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #388e3c;
+}
+
+footer .box a {
+    color: #000;
+    font-size: 1.6rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+footer .box a:hover {
+    color: #4caf50;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
